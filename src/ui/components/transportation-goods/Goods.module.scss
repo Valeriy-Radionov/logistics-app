@@ -1,0 +1,144 @@
+@import "src/common/styles/scss-common/variables.scss";
+.wrapper {
+  display: flex;
+  justify-content: center;
+  background: $backgroundColor;
+  height: 100vh;
+  width: 100%;
+  @media (max-width: 813px) {
+    height: 100%;
+  }
+  .container {
+    position: relative;
+    display: flex;
+    width: 87%;
+    height: 100%;
+    padding: 5px;
+    margin: 0 auto;
+    @media (max-width: 813px) {
+      justify-content: center;
+    }
+    .items {
+      padding: 0px;
+      width: 100%;
+      z-index: 2;
+
+      @media (max-width: 813px) {
+        height: 100%;
+        justify-content: center;
+      }
+      .location {
+        margin-top: 100px;
+        display: flex;
+        align-items: center;
+        @media (max-width: 813px) {
+          align-items: flex-start;
+          flex-direction: column;
+          padding-bottom: 20px;
+        }
+        .iconBlock {
+          display: flex;
+          align-items: center;
+
+          padding: 0px;
+          .imageLoc {
+            padding: 0;
+            margin-right: 5px;
+            width: 90px;
+            height: 90px;
+            background-image: url("../../../common/assets/locationIcon.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            @media (max-width: 813px) {
+              width: 60px;
+              height: 60px;
+            }
+          }
+          & h1 {
+            font-family: $bigFont;
+            color: white;
+            font-size: 27px;
+          }
+        }
+        & div {
+          font-family: $baseFont;
+          font-size: 1.2em;
+          color: $descriptionColor;
+          padding-left: 10px;
+        }
+      }
+      .mobile {
+        visibility: hidden;
+
+        @media (max-width: 813px) {
+          visibility: visible;
+          display: flex;
+          width: 100%;
+          height: 230px;
+          background-image: url("../../../common/assets/furgonGoods.png");
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: contain;
+        }
+      }
+      & h2 {
+        position: relative;
+        font-family: $bigFont;
+        font-weight: bold;
+        font-size: 27px;
+        color: white;
+        &:before {
+          content: "";
+          position: absolute;
+          background: $redColor;
+          width: 150px;
+          height: 3px;
+          bottom: -5px;
+        }
+        @media (max-width: 395px) {
+          font-size: 30px;
+        }
+        @media (max-width: 468px) {
+          font-size: 27px;
+        }
+      }
+
+      & ul {
+        padding: 0px;
+        list-style-position: inside;
+        @media (max-width: 813px) {
+          line-height: 0.5;
+        }
+        & li {
+          font-size: $descriptioFontSize;
+          font-family: $baseFont;
+          line-height: 1;
+          color: $descriptionColor;
+          padding-right: 5px;
+        }
+        @media (max-width: 989px) {
+          font-size: 1.2em;
+        }
+        @media (max-width: 468px) {
+          font-size: 1.1em;
+        }
+      }
+    }
+    .image {
+      position: absolute;
+      top: 50px;
+      left: 45%;
+      width: 50vh;
+      z-index: 1;
+      height: 30%;
+      background-image: url("../../../common/assets/furgonGoods.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      @media (max-width: 813px) {
+        display: none;
+      }
+    }
+  }
+}

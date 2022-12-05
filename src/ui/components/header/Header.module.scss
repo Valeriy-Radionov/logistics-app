@@ -1,0 +1,35 @@
+@import "src/common/styles/scss-common/variables.scss";
+
+.container {
+  font-family: $baseFont;
+  height: 100%;
+  .en {
+    &:hover {
+      color: rgb(115, 47, 199);
+      text-decoration: underline;
+    }
+  }
+  .pl {
+    &:hover {
+      color: rgb(61, 218, 163);
+      text-decoration: underline;
+    }
+  }
+  .ru {
+    &:hover {
+      color: rgb(246, 155, 36);
+      text-decoration: underline;
+    }
+  }
+}
+.navLink {
+  font-family: $bigFont;
+  text-decoration: none;
+  color: black;
+}
+.btnLink {
+  color: white;
+  &:hover {
+    color: rgb(255, 184, 60);
+  }
+}

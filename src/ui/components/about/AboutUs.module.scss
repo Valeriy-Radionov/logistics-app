@@ -1,0 +1,110 @@
+@import "src/common/styles/scss-common/variables.scss";
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  height: 90vh;
+  width: 100%;
+  background: $backgroundColor;
+  @media (max-width: 813px) {
+    height: 100%;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 87%;
+    height: 100%;
+
+    @media (max-width: 568px) {
+      justify-content: center;
+      align-items: flex-start;
+      padding-top: 30px;
+      width: 90%;
+    }
+    @media (max-width: 813px) {
+      height: 100%;
+      justify-content: center;
+    }
+    .info {
+      color: $descriptionColor;
+      width: 60vh;
+      .mobile {
+        visibility: hidden;
+        @media (max-width: 813px) {
+          visibility: visible;
+          width: 100%;
+          height: 230px;
+          background-image: url("../../../common/assets/logisticCars.png");
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: contain;
+        }
+      }
+      & h1 {
+        color: $textColor;
+        font-family: $bigFont;
+        font-weight: bold;
+        font-size: 50px;
+        @media (max-width: 813px) {
+          text-align: center;
+          font-size: 35px;
+          margin: 0;
+        }
+      }
+      .description {
+        font-size: 1.3em;
+        font-family: $baseFont;
+        line-height: 1.4;
+        padding: 5px;
+        @media (max-width: 813px) {
+          font-size: 1.2em;
+          margin: 0;
+        }
+        @media (max-width: 300px) {
+          font-size: 1em;
+        }
+        .animationText {
+          margin: 0px;
+          width: 6ch;
+          white-space: nowrap;
+          font-size: 1.55em;
+          color: white;
+          font-family: $mono;
+          overflow: hidden;
+          border-right: 3px solid $primaryColor;
+          animation: flashingBorder 0.75s step-end infinite, printedText 2.4s steps(6) infinite;
+
+          @keyframes printedText {
+            from {
+              width: 0;
+            }
+          }
+
+          @keyframes flashingBorder {
+            0% {
+              border-color: $textColor;
+            }
+            50% {
+              border-color: transparent;
+            }
+            100% {
+              border-color: $primaryColor;
+            }
+          }
+        }
+      }
+    }
+    .aboutUsImg {
+      width: 70vh;
+      height: 70%;
+      background-image: url("../../../common/assets/logisticCars.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      @media (max-width: 813px) {
+        display: none;
+      }
+    }
+  }
+}

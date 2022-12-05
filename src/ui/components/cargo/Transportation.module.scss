@@ -1,0 +1,44 @@
+@import "src/common/styles/scss-common/variables.scss";
+.title {
+  box-shadow: inset rgba(0, 0, 0, 0.5) -3px -3px 8px, inset rgba(255, 255, 255, 0.9) 3px 3px 8px, rgba(0, 0, 0, 0.8) 3px 3px 8px -3px;
+  height: 30px;
+  margin-bottom: 8px;
+  text-align: center;
+  font-family: $bigFont;
+  font-weight: bold;
+  font-size: 27px;
+  color: white;
+}
+.imgCargo {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 20px;
+  width: 100%;
+  color: white;
+  flex-wrap: nowrap;
+  @media (max-width: 943px) {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  & div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    z-index: 2;
+    text-align: center;
+    margin-bottom: 10px;
+    box-shadow: inset rgba(0, 0, 0, 0.5) -3px -3px 8px, inset rgba(255, 255, 255, 0.9) 3px 3px 8px, rgba(0, 0, 0, 0.8) 3px 3px 8px -3px;
+    &:hover {
+      color: rgb(255, 184, 60);
+    }
+    & img {
+      background-size: cover;
+      background-position: center;
+      padding: 20px;
+      width: 100px;
+      height: 120px;
+    }
+  }
+}
