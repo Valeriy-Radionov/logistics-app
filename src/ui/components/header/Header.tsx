@@ -54,7 +54,7 @@ export const Header = () => {
   }
 
   return (
-    <AppBar position="static" sx={{ bgcolor: "black" }}>
+    <AppBar position="sticky" sx={{ bgcolor: "black" }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <div style={{ width: "200px", height: "100px" }}>

@@ -33,7 +33,7 @@ export type PagesDataType = {
 export const textDataEN = {
   EN(): PagesDataType {
     return {
-      headerPages: ["Services", "Transportation of goods", "Insurance", "Contacts"],
+      headerPages: ["Services", "Transportation of goods", "Insurance", "Contacts", "About us"],
       aboutUs: {
         title: "Logistic company",
         description:
@@ -99,7 +99,7 @@ export const textDataEN = {
 export const textDataPL = {
   PL(): PagesDataType {
     return {
-      headerPages: ["Usługi", "Transport towarów", "Ubezpieczenie", "Łączność"],
+      headerPages: ["Usługi", "Transport towarów", "Ubezpieczenie", "Łączność", "O nas"],
       aboutUs: {
         title: "Firma logistyczna",
         description:
@@ -165,7 +165,7 @@ export const textDataPL = {
 export const textDataRU = {
   RU(): PagesDataType {
     return {
-      headerPages: ["Услуги", "Транспортировка товаров", "Страхование", "Контакты"],
+      headerPages: ["Услуги", "Транспортировка товаров", "Страхование", "Контакты", "О нас"],
       aboutUs: {
         title: "Логистическая компания",
         description:

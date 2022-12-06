@@ -11,6 +11,9 @@
   @media (max-width: 705px) {
     height: 100%;
   }
+  @media (max-width: 813px) {
+    background-position: left;
+  }
   &:before {
     content: "";
     display: block;
