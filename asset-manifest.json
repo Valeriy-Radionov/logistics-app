@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/logistics-app/static/css/main.9a26f124.css",
-    "main.js": "/logistics-app/static/js/main.be09ff60.js",
+    "main.css": "/logistics-app/static/css/main.84dab10c.css",
+    "main.js": "/logistics-app/static/js/main.f03974a4.js",
     "static/js/787.95eca8d9.chunk.js": "/logistics-app/static/js/787.95eca8d9.chunk.js",
     "static/media/negabCargo.png": "/logistics-app/static/media/negabCargo.3c0a957da437ef0a6524.png",
     "static/media/inshurence.jpg": "/logistics-app/static/media/inshurence.f28fb988b71790becc82.jpg",
@@ -12,12 +12,12 @@
     "static/media/dangerousCarg.png": "/logistics-app/static/media/dangerousCarg.f895a4cafc8c7ea881d0.png",
     "static/media/LOGO.jpg": "/logistics-app/static/media/LOGO.879af838771499e06c65.jpg",
     "index.html": "/logistics-app/index.html",
-    "main.9a26f124.css.map": "/logistics-app/static/css/main.9a26f124.css.map",
-    "main.be09ff60.js.map": "/logistics-app/static/js/main.be09ff60.js.map",
+    "main.84dab10c.css.map": "/logistics-app/static/css/main.84dab10c.css.map",
+    "main.f03974a4.js.map": "/logistics-app/static/js/main.f03974a4.js.map",
     "787.95eca8d9.chunk.js.map": "/logistics-app/static/js/787.95eca8d9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a26f124.css",
-    "static/js/main.be09ff60.js"
+    "static/css/main.84dab10c.css",
+    "static/js/main.f03974a4.js"
   ]
 }
