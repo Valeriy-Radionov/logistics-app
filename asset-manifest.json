@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/logistics-app/static/css/main.84dab10c.css",
-    "main.js": "/logistics-app/static/js/main.f03974a4.js",
+    "main.css": "/logistics-app/static/css/main.1c3f66e2.css",
+    "main.js": "/logistics-app/static/js/main.d8077a5a.js",
     "static/js/787.95eca8d9.chunk.js": "/logistics-app/static/js/787.95eca8d9.chunk.js",
     "static/media/negabCargo.png": "/logistics-app/static/media/negabCargo.3c0a957da437ef0a6524.png",
     "static/media/inshurence.jpg": "/logistics-app/static/media/inshurence.f28fb988b71790becc82.jpg",
     "static/media/progectCargo.png": "/logistics-app/static/media/progectCargo.f78fa842f6cb335f08b5.png",
     "static/media/furgonGoods.png": "/logistics-app/static/media/furgonGoods.df924371a30c05b8f37c.png",
-    "static/media/logisticCars.png": "/logistics-app/static/media/logisticCars.75e45b5dd93b66a70bf2.png",
     "static/media/consistCarg.png": "/logistics-app/static/media/consistCarg.effae1498c4b3091ea33.png",
+    "static/media/aboutUs.png": "/logistics-app/static/media/aboutUs.fa3c72a04f86336dfd54.png",
     "static/media/dangerousCarg.png": "/logistics-app/static/media/dangerousCarg.f895a4cafc8c7ea881d0.png",
     "static/media/LOGO.jpg": "/logistics-app/static/media/LOGO.879af838771499e06c65.jpg",
     "index.html": "/logistics-app/index.html",
-    "main.84dab10c.css.map": "/logistics-app/static/css/main.84dab10c.css.map",
-    "main.f03974a4.js.map": "/logistics-app/static/js/main.f03974a4.js.map",
+    "main.1c3f66e2.css.map": "/logistics-app/static/css/main.1c3f66e2.css.map",
+    "main.d8077a5a.js.map": "/logistics-app/static/js/main.d8077a5a.js.map",
     "787.95eca8d9.chunk.js.map": "/logistics-app/static/js/787.95eca8d9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.84dab10c.css",
-    "static/js/main.f03974a4.js"
+    "static/css/main.1c3f66e2.css",
+    "static/js/main.d8077a5a.js"
   ]
 }
