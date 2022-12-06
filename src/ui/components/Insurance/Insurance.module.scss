@@ -38,6 +38,7 @@
         align-items: flex-start;
         flex-direction: column;
         padding-bottom: 20px;
+        margin: 0px;
       }
       .iconBlock {
         display: flex;
@@ -94,27 +95,28 @@
         @media (max-width: 468px) {
           font-size: 27px;
         }
+        font-size: 30px;
       }
-      & ul {
-        padding: 0px;
-        list-style-position: inside;
-        @media (max-width: 813px) {
-          line-height: 0.5;
-        }
-        & li {
-          margin: 0;
-          font-size: $descriptioFontSize;
-          color: white;
-          font-family: $baseFont;
-          line-height: 1;
-          color: $descriptionColor;
-        }
-        @media (max-width: 989px) {
-          font-size: 1.2em;
-        }
-        @media (max-width: 468px) {
-          font-size: 1.1em;
-        }
+    }
+    & ul {
+      padding: 0px;
+      list-style-position: inside;
+      @media (max-width: 813px) {
+        line-height: 0.5;
+      }
+      & li {
+        margin: 0;
+        font-size: $descriptioFontSize;
+        color: white;
+        font-family: $baseFont;
+        line-height: 1;
+        color: $descriptionColor;
+      }
+      @media (max-width: 989px) {
+        font-size: 1.2em;
+      }
+      @media (max-width: 468px) {
+        font-size: 1.1em;
       }
     }
   }

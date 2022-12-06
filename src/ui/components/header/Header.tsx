@@ -83,20 +83,19 @@ export const Header = () => {
               }}
             >
               {headerPages.map((page) => (
-                <MenuItem key={page}>
-                  <Typography
-                    className={style.navLink}
-                    textAlign="center"
-                    onMouseDown={() => {
-                      handleCloseNavMenu()
-                    }}
-                    onClick={() => {
-                      const element = document.getElementById(page)
-                      if (element) {
-                        element.scrollIntoView({ behavior: "smooth" })
-                      }
-                    }}
-                  >
+                <MenuItem
+                  key={page}
+                  onMouseDown={() => {
+                    handleCloseNavMenu()
+                  }}
+                  onClick={() => {
+                    const element = document.getElementById(page)
+                    if (element) {
+                      element.scrollIntoView({ behavior: "smooth" })
+                    }
+                  }}
+                >
+                  <Typography className={style.navLink} textAlign="center">
                     {page.toUpperCase()}
                   </Typography>
                 </MenuItem>
