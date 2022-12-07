@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/logistics-app/static/css/main.a7671c5d.css",
-    "main.js": "/logistics-app/static/js/main.d8077a5a.js",
+    "main.css": "/logistics-app/static/css/main.52f64149.css",
+    "main.js": "/logistics-app/static/js/main.b0d29d12.js",
     "static/js/787.95eca8d9.chunk.js": "/logistics-app/static/js/787.95eca8d9.chunk.js",
-    "static/media/truck.png": "/logistics-app/static/media/truck.bd694d9e6fe2af6cf109.png",
-    "static/media/negabCargo.png": "/logistics-app/static/media/negabCargo.3c0a957da437ef0a6524.png",
     "static/media/inshurence.jpg": "/logistics-app/static/media/inshurence.f28fb988b71790becc82.jpg",
-    "static/media/progectCargo.png": "/logistics-app/static/media/progectCargo.f78fa842f6cb335f08b5.png",
-    "static/media/consistCarg.png": "/logistics-app/static/media/consistCarg.effae1498c4b3091ea33.png",
-    "static/media/MainIconPng.png": "/logistics-app/static/media/MainIconPng.913b616de264f786b04b.png",
-    "static/media/dangerousCarg.png": "/logistics-app/static/media/dangerousCarg.f895a4cafc8c7ea881d0.png",
-    "static/media/LOGO.jpg": "/logistics-app/static/media/LOGO.879af838771499e06c65.jpg",
+    "static/media/sbornie.png": "/logistics-app/static/media/sbornie.635eb91a1d60497f4e3e.png",
+    "static/media/negab.jpg": "/logistics-app/static/media/negab.31ac835690e3cab9525c.jpg",
+    "static/media/truck.jpg": "/logistics-app/static/media/truck.5cf54ccffce021ed3bfa.jpg",
+    "static/media/progect.jpg": "/logistics-app/static/media/progect.15db0f60c9ce6e6abb31.jpg",
+    "static/media/danger.jpg": "/logistics-app/static/media/danger.3e094c6471b63c8904dd.jpg",
+    "static/media/backgroundAboutUs.jpg": "/logistics-app/static/media/backgroundAboutUs.056aaff87c5bdc9e8795.jpg",
     "index.html": "/logistics-app/index.html",
-    "main.a7671c5d.css.map": "/logistics-app/static/css/main.a7671c5d.css.map",
-    "main.d8077a5a.js.map": "/logistics-app/static/js/main.d8077a5a.js.map",
+    "main.52f64149.css.map": "/logistics-app/static/css/main.52f64149.css.map",
+    "main.b0d29d12.js.map": "/logistics-app/static/js/main.b0d29d12.js.map",
     "787.95eca8d9.chunk.js.map": "/logistics-app/static/js/787.95eca8d9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7671c5d.css",
-    "static/js/main.d8077a5a.js"
+    "static/css/main.52f64149.css",
+    "static/js/main.b0d29d12.js"
   ]
 }
