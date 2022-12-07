@@ -4,7 +4,7 @@ import { Footer } from "./ui/components/footer/Footer"
 import { Header } from "./ui/components/header/Header"
 import { Insurance } from "./ui/components/Insurance/Insurance"
 import { Main } from "./ui/components/services/Main"
-import { Goods } from "./ui/components/transportation-goods/Goods"
+import { TransportSolutions } from "./ui/components/transportation-goods/TransportSolutions"
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <Header />
       <AboutUs />
       <Main />
-      <Goods />
+      <TransportSolutions />
       <Insurance />
       <Footer />
     </div>

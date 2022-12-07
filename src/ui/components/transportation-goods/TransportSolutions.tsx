@@ -1,17 +1,16 @@
 import { useAppSelector } from "../../../common/utils/hooks/appHooks"
-import style from "./Goods.module.scss"
-export const Goods = () => {
+import style from "./TransportSolutions.module.scss"
+export const TransportSolutions = () => {
   const location = useAppSelector((state) => state.dataPages.geography)
-  const state = useAppSelector((state) => state.dataPages.transportationGoods)
   const stateHeder = useAppSelector((state) => state.dataPages.headerPages[1])
+  const state = useAppSelector((state) => state.dataPages.transportAndServices)
 
   return (
     <div id={`${stateHeder}`} className={style.wrapper}>
       <div className={style.container}>
         <div className={style.items}>
-          <h2>{state.title}</h2>
-          <div className={style.mobile}></div>
-          {state.items.map((el) => {
+          <h2>{state.transportTitle}</h2>
+          {state.transport.map((el) => {
             return (
               <ul key={el}>
                 <li>{el}</li>

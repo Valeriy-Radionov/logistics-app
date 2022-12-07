@@ -7,10 +7,20 @@
   height: 90vh;
   width: 100%;
   background: $backgroundColor;
-  background-image: url("../../../common/assets/MainIconPng.png");
+  background-image: url("../../../common/assets/backgroundAboutUs.jpg");
   background-repeat: no-repeat;
   background-position: right;
-  background-size: contain;
+  background-size: cover;
+  // @media only screen and (orientation: landscape) {
+  //   height: 100%;
+  // }
+  @media (max-width: 768px) and (orientation: landscape) {
+    height: 100%;
+  }
+  @media (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    height: 100%;
+  }
+
   &:before {
     content: "";
     display: block;
@@ -72,7 +82,7 @@
           margin: 0px;
           width: 6ch;
           white-space: nowrap;
-          font-size: 1.55em;
+          font-size: 2.2em;
           color: white;
           font-family: $mono;
           overflow: hidden;

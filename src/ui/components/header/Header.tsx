@@ -13,7 +13,7 @@ import Typography from "@mui/material/Typography"
 import React, { useState } from "react"
 import { getDataPages } from "../../../bll/reducers/pagesReducer"
 import { textDataEN, textDataPL, textDataRU } from "../../../bll/state-app/textData"
-import Logo from "../../../common/assets/LOGO.jpg"
+import Logo from "../../../common/assets/LOGO.png"
 import { useAppDispatch, useAppSelector } from "../../../common/utils/hooks/appHooks"
 import style from "./Header.module.scss"
 export const Header = () => {
@@ -57,7 +57,7 @@ export const Header = () => {
     <AppBar position="sticky" sx={{ bgcolor: "black" }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <div style={{ width: "200px", height: "100px" }}>
+          <div style={{ width: "220px", height: "90px" }}>
             <img alt="RIDER" src={Logo} style={{ objectFit: "fill", width: "100%", height: "100%" }}></img>
           </div>
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
@@ -106,7 +106,7 @@ export const Header = () => {
             {headerPages.map((page) => (
               <Button
                 key={page}
-                sx={{ my: 2, color: "white", display: "block" }}
+                sx={{ my: 2, color: "white", display: "block", marginRight: "30px" }}
                 className={`${style.navLink} ${style.btnLink}`}
                 onClick={() => {
                   const element = document.getElementById(page)

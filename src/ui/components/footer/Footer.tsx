@@ -10,24 +10,13 @@ export const Footer = () => {
         <div className={style.footerBlock}>
           <div className={style.logoBlock}>
             <div className={style.logo}>{title}</div>
-            <div className={style.logo}>
-              <div style={{ color: "#8e7aff" }}>R</div>
-              <div style={{ color: "#52f765" }}>I</div>
-              <div style={{ color: "#def752" }}>D</div>
-              <div style={{ color: "#eb4015" }}>E</div>
-              <div style={{ color: "#026cbd" }}>R</div>
-            </div>
+            <div className={style.logo}>RIDER</div>
           </div>
-
           <div className={style.address}>
-            <div>RIDER Sp. z o.o.</div>
             <div>
-              <span>Address</span>: ul. Elizy Orzeszkowej 32/408A,
+              <span>Address</span>
             </div>
-            <div> 15-084 Białystok, Poland</div>
-            <div>NIP 9662164018</div>
-            <div>REGON 522242354</div>
-            <div>KRS 0000976016</div>
+            <div>Białystok, Poland</div>
           </div>
 
           <div className={style.contacts}>
@@ -43,9 +32,13 @@ export const Footer = () => {
               <div></div>
               <a href="tel:+48573826782">+48 573 826 782</a>
             </div>
+            <div className={style.phone}>
+              <div></div>
+              <a href="tel:+48797529867">+48 797 529 867</a>
+            </div>
           </div>
         </div>
-        <div className={style.mobAddress}>Address: ul. Elizy Orzeszkowej 32/408A, 15-084 Białystok. NIP 9662164018. REGON 522242354. KRS 0000976016.</div>
+        <div className={style.mobAddress}>Address: Białystok, Poland</div>
       </div>
     </div>
   )
