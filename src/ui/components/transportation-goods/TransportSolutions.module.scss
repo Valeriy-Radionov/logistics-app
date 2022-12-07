@@ -14,8 +14,7 @@
   @media (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     height: 100%;
   }
-
-  @media (max-width: 813px) {
+  @media (max-width: 768px) and (orientation: landscape) {
     height: 100%;
   }
 

@@ -106,7 +106,7 @@ export const Header = () => {
             {headerPages.map((page) => (
               <Button
                 key={page}
-                sx={{ my: 2, color: "white", display: "block", marginRight: "30px" }}
+                sx={{ my: 2, color: "white", display: "block", fontSize: "16px" }}
                 className={`${style.navLink} ${style.btnLink}`}
                 onClick={() => {
                   const element = document.getElementById(page)
