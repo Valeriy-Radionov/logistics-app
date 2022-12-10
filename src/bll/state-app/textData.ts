@@ -3,6 +3,8 @@ export type PagesDataType = {
   aboutUs: {
     title: string
     description: string
+    titleOffer: string
+    ourOffer: string[]
   }
   transportAndServices: {
     transportTitle: string
@@ -16,7 +18,7 @@ export type PagesDataType = {
   }
   geography: {
     title: string
-    description: string
+    description: string[]
   }
   transportation: {
     title: string
@@ -35,24 +37,32 @@ export const textDataEN = {
     return {
       headerPages: ["Services", "Transportation of goods", "Insurance", "Contacts", "About us"],
       aboutUs: {
-        title: "Logistic company",
+        title: "Company",
         description:
           " provides a full range of logistics services. We support industry and commerce by exchanging goods worldwide through land transport, worldwide air and sea freight.We are building a company on the basis of responsibility and long-term mutually beneficial relationships with partners",
+        titleOffer: "Our offer",
+        ourOffer: [
+          "FTL Road Freight",
+          "Heavy and Oversized Сargo Transportation",
+          "Groupage Cargo Shipment (LTL)",
+          "Railroad Freight",
+          "Shipping Cargoes by Sea",
+          "Air freight Logistics",
+          "Multimodal Freight Services",
+        ],
       },
       transportAndServices: {
         transportTitle: "Transport solutions",
         transport: ["Road transportation", "Sea container transportation", "Rail transportation", "Multimodal transportation"],
         servicesTitle: "Services of the transport company RIDER",
         services: [
-          "Full truck load transportation",
-          "Carriage of consolidated cargo from Europe to the EAEU and Central Asia countries",
-          "Carriage of oversize cargo",
           "Carriage of project cargo and exhibition equipment",
           "Carriage of dangerous goods (ADR) (classes 2,3,4,5,6,8,9)",
           "Carriage of high-value goods under Customs carrier license",
           "Freight forwarding (including containers and temperature controlled freights)",
           "Supplementary insurance and custom processing of cargo",
           "Customs services",
+          "Warehouse services",
         ],
       },
       transportationGoods: {
@@ -72,7 +82,13 @@ export const textDataEN = {
       },
       geography: {
         title: "Geography of road transportations",
-        description: "Europe, Asia – Russia, Belarus, Ukraine, Kazakhstan, other CIS countries (imports, exports),between the European countries, between the CIS countries (the EAEU, Ukraine, etc.)",
+        description: [
+          "Europe - EAEU countries (Russia, Belarus, Kazakhstan, Kyrgyzstan etc.), Ukraine - Europe",
+          "Within Europe (between EU countries)",
+          "From/to Scandinavian, Baltic",
+          "Middle Eastern, Asian, Far Eastern",
+          "American countries",
+        ],
       },
       transportation: {
         title: "Transportation",
@@ -101,25 +117,24 @@ export const textDataPL = {
     return {
       headerPages: ["Usługi", "Transport towarów", "Ubezpieczenie", "Łączność", "O nas"],
       aboutUs: {
-        title: "Firma logistyczna",
+        title: "Firma",
         description:
           " zapewnia pełny kompleks logistycznych usług. My wspieramy przemysł i handel, realizując światową wymiane towarów transportem naziemnym, światowym powietrznym i morskim. My budujemy firme na bazie odpowiedzialnosci i długoterminowej współpracy z naszymi partnerami",
+        titleOffer: "",
+        ourOffer: ["Transport drogowy FTL", "Transport ponadgabarytów", "Transport drobnicowy (LTL)", "Transport kolejowy", "Transport morski", "Transport lotniczy", "Transport multimodalny"],
       },
       transportAndServices: {
         transportTitle: "Rodzaje transportu",
         transport: ["Transport drogowy", "Przewozy morskie", "Kolejowe przewozy", "Multimodalne przewozy"],
         servicesTitle: "SUsługi firmy transportowej Rider",
         services: [
-          "Full truck load transportation",
-          "Prewóz standardowych ładunków",
-          "Przewóz ładunków drobnych",
-          "Przewóz ładunków ponadgabarytowych",
           "Transport ładunków projektowych ",
           "Przewóz ładunków niebezpiecznych (ADR)  (klasa 2,3,4,5,6,8,9)",
           "Przewóz towarów o dużej wartości pod kontrolą celną",
           "Spedycja transportowa (włącznie z kontenerami i ładunków, wymagając przewozu z temperaturą)",
           "Dodatkowe ubezpieczenie i celne deklarowanie dla własnego transportu.",
           "Usługi celne i magazynowanie",
+          "Usługi magazynowe",
         ],
       },
       transportationGoods: {
@@ -139,7 +154,13 @@ export const textDataPL = {
       },
       geography: {
         title: "Geografia przewozów",
-        description: "Przewozy importowo - eksportowe: kraje Europy, Skandynawii, Bałtyckie, Bliskiego Wschodu, Azji, Dalekiego Wschodu, Ameryki– kraje Euroazjatyckiej Unii Gospodarczej, Ukraina",
+        description: [
+          "Europa - państwa WNP ( Rosja, Białoruś, Kazakhstan, Kyrgyzstan, i td), Ukraina - UE",
+          "Przewozy po Unii Europejskiej",
+          "UE - Skandynawia, Kraje Bałtyckie - UE",
+          "Bliski Wschód, Azja, Daleki Wschód",
+          "Państwa Amerykańskie",
+        ],
       },
       transportation: {
         title: "Żegluga",
@@ -167,24 +188,32 @@ export const textDataRU = {
     return {
       headerPages: ["Услуги", "Транспортировка товаров", "Страхование", "Контакты", "О нас"],
       aboutUs: {
-        title: "Логистическая компания",
+        title: "Компания",
         description:
           " предоставляет полный комплекс логистических услуг. Мы поддерживаем промышленность и торговлю, осуществляя всемирный обмен товарами посредством наземного транспорта, всемирных воздушных и морских грузоперевозок. Мы строим компанию на базе ответственности и долгосрочных взаимовыгодных отношениях с партнёрами",
+        titleOffer: "",
+        ourOffer: [
+          "Автомобильные перевозки FTL",
+          "Перевозка тяжеловесных и негабаритных грузов",
+          "Перевозка сборных грузов (LTL)",
+          "Железнодорожные перевозки",
+          "Доставка грузов морем",
+          "Логистика авиаперевозок",
+          "Мультимодальные грузовые перевозки",
+        ],
       },
       transportAndServices: {
         transportTitle: "Виды транспорта",
         transport: ["Автомобильные перевозки", "Морские контейнерные перевозки", "Железнодорожные перевозки", "Мультимодальные перевозки", "Авиа перевозки"],
         servicesTitle: "Услуги транспортной компании RIDER",
         services: [
-          "Перевозка стандартных комплектных грузов",
-          "Перевозка сборных грузов",
-          "Перевозка негабаритных грузов",
           "Перевозка проектных грузов и выставочного оборудования",
           "Перевозка опасных (ADR) грузов (классов 2,3,4,5,6,8,9)",
           "Перевозка дорогостоящих грузов под таможенным контролем",
           "Транспортное экспедирование (в том числе контейнеров и грузов, требующих температурного режима)",
           "Дополнительное страхование и таможенное декларирование для собственного транспорта.",
-          "Таможенные и складские услуги",
+          "Таможенные услуги",
+          "Складские услуги",
         ],
       },
       transportationGoods: {
@@ -201,8 +230,13 @@ export const textDataRU = {
       },
       geography: {
         title: "Сеть маршрутов",
-        description:
-          "RIDER доставляет грузы (FTL) в любую точку Европы, Скандинавии, в Россию, Казахстан и другие страны СНГ, а также в Центральную Азию, в том числе в Китай. Широкая сеть маршрутов позволяет нам выполнять бесперебойные перевозки, гарантировать качество, безопасность и своевременные доставки грузов",
+        description: [
+          "Европа - страны ЕАЭС (Россия, Беларусь, Казахстан, Кыргызстан и др.), Украина - Европа",
+          "Внутриевропейские перевозки",
+          "ЕС - Скандинавия, Прибалтика - ЕС",
+          "Ближний Восток, Азия, Дальний Восток",
+          "Американские страны",
+        ],
       },
       transportation: {
         title: "ПЕРЕВОЗКИ",

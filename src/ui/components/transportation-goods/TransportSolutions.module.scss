@@ -17,7 +17,9 @@
   @media (max-width: 768px) and (orientation: landscape) {
     height: 100%;
   }
-
+  @media (max-width: 500px) {
+    height: 100%;
+  }
   &:before {
     content: "";
     display: block;
@@ -34,16 +36,21 @@
     z-index: 1;
     position: relative;
     display: flex;
+
     width: 87%;
     height: 100%;
     padding: 5px;
     margin: 0 auto;
+
     @media (max-width: 813px) {
       justify-content: center;
     }
     .items {
-      padding: 0px;
+      display: flex;
+      padding-top: 10%;
+      flex-direction: column;
       width: 100%;
+      height: 100%;
       z-index: 2;
 
       @media (max-width: 813px) {
@@ -51,9 +58,25 @@
         justify-content: center;
       }
       .location {
-        margin-top: 100px;
-        display: flex;
         align-items: center;
+        & ul {
+          padding: 0;
+          list-style-position: inside;
+
+          & li {
+            font-size: $descriptioFontSize;
+            font-family: $baseFont;
+            line-height: 2;
+            color: $descriptionColor;
+            padding-right: 5px;
+          }
+          @media (max-width: 989px) {
+            font-size: 1.2em;
+          }
+          @media (max-width: 468px) {
+            font-size: 1.1em;
+          }
+        }
         @media (max-width: 813px) {
           align-items: flex-start;
           flex-direction: column;
@@ -67,8 +90,8 @@
           .imageLoc {
             padding: 0;
             margin-right: 5px;
-            width: 90px;
-            height: 90px;
+            width: 80px;
+            height: 80px;
             background-image: url("../../../common/assets/locationIcon.png");
             background-repeat: no-repeat;
             background-position: center;
@@ -91,47 +114,49 @@
           padding-left: 10px;
         }
       }
-
-      & h2 {
-        position: relative;
-        font-family: $bigFont;
-        font-weight: bold;
-        font-size: 27px;
-        color: white;
-        &:before {
-          content: "";
-          position: absolute;
-          background: $redColor;
-          width: 150px;
-          height: 3px;
-          bottom: -5px;
-        }
-        @media (max-width: 395px) {
-          font-size: 30px;
-        }
-        @media (max-width: 468px) {
+      .solutions {
+        & h2 {
+          position: relative;
+          font-family: $bigFont;
+          font-weight: bold;
           font-size: 27px;
+          color: white;
+          &:before {
+            content: "";
+            position: absolute;
+            background: $redColor;
+            width: 150px;
+            height: 3px;
+            bottom: -5px;
+          }
+          @media (max-width: 395px) {
+            font-size: 30px;
+          }
+          @media (max-width: 468px) {
+            font-size: 27px;
+          }
+          @media (max-width: 500px) {
+            padding: 0;
+          }
         }
-      }
 
-      & ul {
-        padding: 0px;
-        list-style-position: inside;
-        @media (max-width: 813px) {
-          line-height: 0.5;
-        }
-        & li {
-          font-size: $descriptioFontSize;
-          font-family: $baseFont;
-          line-height: 1;
-          color: $descriptionColor;
-          padding-right: 5px;
-        }
-        @media (max-width: 989px) {
-          font-size: 1.2em;
-        }
-        @media (max-width: 468px) {
-          font-size: 1.1em;
+        & ul {
+          list-style-position: inside;
+          margin: 0;
+          padding: 0;
+          & li {
+            font-size: $descriptioFontSize;
+            font-family: $baseFont;
+            line-height: 2;
+            color: $descriptionColor;
+            padding-right: 5px;
+          }
+          @media (max-width: 989px) {
+            font-size: 1.2em;
+          }
+          @media (max-width: 468px) {
+            font-size: 1.1em;
+          }
         }
       }
     }

@@ -9,20 +9,24 @@ export const TransportSolutions = () => {
     <div id={`${stateHeder}`} className={style.wrapper}>
       <div className={style.container}>
         <div className={style.items}>
-          <h2>{state.transportTitle}</h2>
-          {state.transport.map((el) => {
-            return (
-              <ul key={el}>
-                <li>{el}</li>
-              </ul>
-            )
-          })}
           <div className={style.location}>
             <div className={style.iconBlock}>
               <div className={style.imageLoc}></div>
               <h1>{location.title}</h1>
             </div>
-            <div>{location.description}</div>
+            <ul>
+              {location.description.map((el) => {
+                return <li key={el}>{el}</li>
+              })}
+            </ul>
+          </div>
+          <div className={style.solutions}>
+            <h2>{state.transportTitle}</h2>
+            <ul>
+              {state.transport.map((el) => {
+                return <li key={el}>{el}</li>
+              })}
+            </ul>
           </div>
         </div>
         <div className={style.image}></div>
