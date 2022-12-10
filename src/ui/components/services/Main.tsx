@@ -1,6 +1,6 @@
 import "animate.css/animate.min.css"
 import { useAppSelector } from "../../../common/utils/hooks/appHooks"
-import { Transportation } from "../cargo/Transportation"
+import { Transportation } from "./cargo/Transportation"
 import style from "./Main.module.scss"
 
 export const Main = () => {

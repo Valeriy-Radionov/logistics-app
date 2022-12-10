@@ -37,7 +37,6 @@
   .container {
     display: flex;
     z-index: 1;
-    // align-items: center;
     justify-content: space-between;
     width: 87%;
     height: 100%;
@@ -144,7 +143,6 @@
           font-size: $descriptioFontSize;
           padding-top: 4px;
           font-family: $baseFont;
-          // line-height: 1.2;
           color: $descriptionColor;
         }
       }

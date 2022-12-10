@@ -7,7 +7,7 @@ body {
   text-size-adjust: none;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  background: white;
+  background: rgb(102, 102, 102);
 }
 
 code {

@@ -1,8 +1,8 @@
-import { useAppSelector } from "../../../common/utils/hooks/appHooks"
-import negaCargo from "../../../common/assets/negab.jpg"
-import dangerousCargo from "../../../common/assets/danger.jpg"
-import progectCargo from "../../../common/assets/progect.jpg"
-import consCargo from "../../../common/assets/sbornie.png"
+import { useAppSelector } from "../../../../common/utils/hooks/appHooks"
+import negaCargo from "../../../../common/assets/negab.jpg"
+import dangerousCargo from "../../../../common/assets/danger.jpg"
+import progectCargo from "../../../../common/assets/progect.jpg"
+import consCargo from "../../../../common/assets/sbornie.png"
 import style from "./Transportation.module.scss"
 export const Transportation = () => {
   const cargo = useAppSelector((state) => state.dataPages.transportation)
