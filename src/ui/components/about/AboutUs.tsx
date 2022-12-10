@@ -1,4 +1,3 @@
-import React from "react"
 import { useAppSelector } from "../../../common/utils/hooks/appHooks"
 import style from "./AboutUs.module.scss"
 export const AboutUs = () => {
