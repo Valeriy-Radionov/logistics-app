@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/logistics-app/static/css/main.a4a010fc.css",
-    "main.js": "/logistics-app/static/js/main.60b34245.js",
-    "static/js/787.95eca8d9.chunk.js": "/logistics-app/static/js/787.95eca8d9.chunk.js",
-    "static/media/sbornie.png": "/logistics-app/static/media/sbornie.9ee50047276fa0232b75.png",
-    "static/media/transport.jpg": "/logistics-app/static/media/transport.9e35ea68d4bf62d54038.jpg",
-    "static/media/inshurence.jpg": "/logistics-app/static/media/inshurence.767bb6f374cd1becab49.jpg",
-    "static/media/truck.jpg": "/logistics-app/static/media/truck.5cf54ccffce021ed3bfa.jpg",
-    "static/media/negab.jpg": "/logistics-app/static/media/negab.72d8aa89b92ce10f8434.jpg",
-    "static/media/progect.jpg": "/logistics-app/static/media/progect.15db0f60c9ce6e6abb31.jpg",
-    "static/media/danger.jpg": "/logistics-app/static/media/danger.2a7290276eea05a81ebe.jpg",
-    "static/media/backgroundAboutUs.jpg": "/logistics-app/static/media/backgroundAboutUs.a4403b284239bdacd2fe.jpg",
-    "index.html": "/logistics-app/index.html",
-    "main.a4a010fc.css.map": "/logistics-app/static/css/main.a4a010fc.css.map",
-    "main.60b34245.js.map": "/logistics-app/static/js/main.60b34245.js.map",
-    "787.95eca8d9.chunk.js.map": "/logistics-app/static/js/787.95eca8d9.chunk.js.map"
+    "main.css": "/static/css/main.1c232b53.css",
+    "main.js": "/static/js/main.40e718c4.js",
+    "static/js/787.95eca8d9.chunk.js": "/static/js/787.95eca8d9.chunk.js",
+    "static/media/sbornie.png": "/static/media/sbornie.9ee50047276fa0232b75.png",
+    "static/media/transport.jpg": "/static/media/transport.9e35ea68d4bf62d54038.jpg",
+    "static/media/inshurence.jpg": "/static/media/inshurence.767bb6f374cd1becab49.jpg",
+    "static/media/truck.jpg": "/static/media/truck.5cf54ccffce021ed3bfa.jpg",
+    "static/media/negab.jpg": "/static/media/negab.72d8aa89b92ce10f8434.jpg",
+    "static/media/progect.jpg": "/static/media/progect.15db0f60c9ce6e6abb31.jpg",
+    "static/media/danger.jpg": "/static/media/danger.2a7290276eea05a81ebe.jpg",
+    "static/media/backgroundAboutUs.jpg": "/static/media/backgroundAboutUs.a4403b284239bdacd2fe.jpg",
+    "index.html": "/index.html",
+    "main.1c232b53.css.map": "/static/css/main.1c232b53.css.map",
+    "main.40e718c4.js.map": "/static/js/main.40e718c4.js.map",
+    "787.95eca8d9.chunk.js.map": "/static/js/787.95eca8d9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a4a010fc.css",
-    "static/js/main.60b34245.js"
+    "static/css/main.1c232b53.css",
+    "static/js/main.40e718c4.js"
   ]
 }
